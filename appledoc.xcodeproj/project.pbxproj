@@ -1319,7 +1319,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-sectcreate",
@@ -1351,7 +1350,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-sectcreate",
@@ -1400,6 +1398,7 @@
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Common/ThirdParty",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-licucore",
@@ -1443,6 +1442,7 @@
 					"$(SRCROOT)/Libraries",
 					"$(SRCROOT)/Common/ThirdParty",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				OTHER_LDFLAGS = (
 					"-licucore",
 					"$(inherited)",
@@ -1478,7 +1478,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -1517,7 +1516,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Libraries",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
